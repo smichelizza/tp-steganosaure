@@ -1,0 +1,27 @@
+[tool.poetry]
+authors = ["m09 <142691+m09@users.noreply.github.com>"]
+description = ""
+name = "steganosaure"
+packages = [{include = "steganosaure"}]
+readme = "README.md"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.10.0"
+flake8 = "^6.0.0"
+flake8-bugbear = "^22.10.27"
+flake8-docstrings = "^1.6.0"
+isort = "^5.10.1"
+mypy = "^0.991"
+pylint = "^2.15.6"
+pytest = "^7.2.0"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core"]
