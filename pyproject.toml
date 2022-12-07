@@ -8,6 +8,9 @@ version = "0.1.0"
 
 [tool.poetry.dependencies]
 python = "^3.8.1"
+numpy = "^1.23.5"
+hypothesis = "^6.60.0"
+scikit-image = "^0.19.3"
 
 [tool.poetry.group.dev.dependencies]
 black = "^22.10.0"
